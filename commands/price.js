@@ -15,6 +15,7 @@ module.exports = {
                 .setColor('#0099ff')
                 .setTitle(`Mercadolibre:`)
                 .setThumbnail(product1.thumbnail)
+                .setURL(product1.permalink)
                 .addFields(
                     { name: product1.title, value: `${product1.currency_id} ${(product1.price).toFixed(2)}` },
                 );
@@ -23,6 +24,7 @@ module.exports = {
                 .setColor('#0099ff')
                 .setTitle(`Mercadolibre:`)
                 .setThumbnail(product2.thumbnail)
+                .setURL(product1.permalink)
                 .addFields(
                     { name: product2.title, value: `${product2.currency_id} ${(product2.price).toFixed(2)}` },
                 );
